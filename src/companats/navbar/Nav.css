@@ -1,0 +1,54 @@
+.barrs{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 4444;
+    background-image: url(../../aswets/1.png05.jpg);
+    
+    background-repeat: no-repeat;
+
+}
+.barrs .link{
+    color: #1f2278;
+}
+.navvv{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navvv .brand-logo{
+    margin-right: 150px;
+}
+nav .navbar-nav a,
+nav .link{
+    color: #1f2278;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    font-size: 18px;
+    transition: .3s ease all;
+
+}
+nav .navbar-nav a:hover,
+nav .navbar-nav a:focus{
+    color: #f17732;
+}
+nav .btn{
+    background-color: #5458cb;
+    margin-left: 30px;
+    height: 55px;
+    width: 170px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+nav .btn .link{
+    color: #fff;
+}
+nav .btn .link:hover,
+nav .btn .link:focus{
+    color: #fff;
+}
